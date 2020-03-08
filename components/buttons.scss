@@ -3,8 +3,10 @@
 
 %btn {
     @include bg-transparent;
+    @include transition;
     // overflow: hidden;
-    font-family: $fontBold;
+    font-family: $font;
+    font-weight: 700;
     font-size: 1rem;
     width: 8rem;
     height: 2rem;
@@ -55,10 +57,10 @@
 }
 
 .tf-btn-text {
+    @include transition;
     border: none;
     background: none;
-    font-family: $fontBold;
-
+    font-family: $font;
 
     &:hover {
         border-bottom: 1px solid lighten($color1, 50%);

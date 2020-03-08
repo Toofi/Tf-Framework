@@ -3,7 +3,7 @@
 
 %card {
     @include bg-transparent;
-    font-family: $fontBold;
+    font-family: $font;
     font-size: 1rem;
 
 }
@@ -14,22 +14,70 @@
 }
 
 .tf-card-body {
+    padding: $paddingMedium;
+
+}
+
+.tf-card-small {
+    padding: $paddingSmall;
+
+}
+
+.tf-card-large {
     padding: $paddingLarge;
+
 }
 
 .tf-card-default {
     @extend .tf-card;
+    color: $color1;
 
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-
-    &:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    }
 }
 
 .tf-card-primary {
  @extend .tf-card;
  background-color: $color2;
  color: $color5;
+
+}
+
+.tf-card-secondary {
+    @extend .tf-card;
+    background-color: $color3;
+    color: $color5;
+
+}
+
+.tf-card-shadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+.tf-card-hover {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+    &:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+}
+
+.tf-card-title {
+    font-weight: 700;
+    margin-top: 0;
+
+}
+
+.tf-card-header {
+    border: 1px solid $color5;
+    border-style: none none solid none;
+    margin-bottom: $marginMedium;
+}
+
+.tf-card-footer {
+    border: 1px solid $color5;
+    border-style: solid none none none;
+    padding-top: $paddingMedium;
+    margin-top: $marginMedium;
+
 }
