@@ -1,0 +1,16 @@
+@import "../src/mixins.scss";
+@import "../src/variables.scss";
+
+%tf-transition {
+
+}
+
+.tf-transition-scale-up {
+    @extend %tf-transition !optional;
+    @include transition-slow;
+    box-sizing: content-box;
+
+    &:hover {
+        transform: scale(1.25);
+    }
+}
