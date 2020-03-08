@@ -1,0 +1,41 @@
+//HSL
+$color1: hsla(71%, 11%, 20%, 1);
+$color2: hsla(176%, 56%, 55%, 1);
+$color3: hsla(0%, 100%, 71%, 1);
+$color4: hsla(50%, 100%, 71%, 1);
+$color5: hsla(353%, 100%, 98%, 1);
+
+//RGB
+$color1: rgba(55, 57, 46, 1);
+$color2: rgba(78, 205, 196, 1);
+$color3: rgba(255, 107, 107, 1);
+$color4: rgba(255, 230, 109, 1);
+$color5: rgba(255, 247, 248, 1);
+
+//hex
+$color1: #37392e;
+$color2: #4ecdc4;
+$color3: #ff6b6b;
+$color4: #ffe66d;
+$color5: #fff7f8;
+
+//margin
+$marginSmall: 0.5rem;
+$marginMedium: 1rem;
+$marginLarge: 2rem;
+
+//padding
+$paddingSmall: 0.5rem;
+$paddingMedium: 1rem;
+$paddingLarge: 2rem;
+
+//shadows
+$shadowLight: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$shadowNeumorphism: 9px 9px 19px #d9d2d3, -9px -9px 19px #ffffff;
+$shadowNeumorphismInverted: 9px 9px 19px #ffffff, -9px -9px 19px #d9d2d3;
+
+//font
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap');
+
+$font: Oxygen, sans-serif;
+$fontBold: Oxygen, sans-serif;

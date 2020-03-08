@@ -1,0 +1,81 @@
+@import "../src/mixins.scss";
+@import "../src/variables.scss";
+
+%btn {
+    @include bg-transparent;
+    // overflow: hidden;
+    font-family: $fontBold;
+    font-size: 1rem;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 2px;
+    padding: 0;
+}
+
+.tf-btn {
+    @extend %btn;
+    border: 1px solid lighten($color1, 50%);
+    &:hover {
+        border: 1px solid lighten($color1, 35%);
+    }
+}
+
+.tf-btn-danger {
+    @extend %btn;
+    border: none;
+    color: $color5;
+    background-color: $color3;
+
+    &:hover {
+        background-color: darken($color3, 5%);
+    }
+}
+
+.tf-btn-primary {
+    @extend %btn;
+    border: none;
+    color : $color5;
+    background-color: $color2;
+    
+    &:hover {
+        background: darken($color2, 10%);
+    }
+
+}
+
+.tf-btn-secondary {
+    @extend %btn;
+    border: none;
+    color: $color5;
+    background-color: $color4;
+
+    &:hover {
+        background: darken($color4, 10%);
+    }
+}
+
+.tf-btn-text {
+    border: none;
+    background: none;
+    font-family: $fontBold;
+
+
+    &:hover {
+        border-bottom: 1px solid lighten($color1, 50%);
+        font-weight: 700;
+    }
+}
+
+.tf-btn-small {
+    width: 6rem;
+    height: 1.25rem;
+}
+
+.tf-btn-large {
+    width: 9.5rem;
+    height: 3.5rem;
+}
+
+//width modifiers avec les width modifiers en grid?
+
+//dropdowns

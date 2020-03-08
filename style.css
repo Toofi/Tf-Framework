@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+.tf-card, .tf-card-default, .tf-card-primary {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: Oxygen, sans-serif;
+  font-size: 1rem; }
+
+.tf-card-body {
+  padding: 2rem; }
+
+.tf-card-default {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .tf-card-default:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.tf-card-primary {
+  background-color: #4ecdc4;
+  color: #fff7f8; }
+
+.tf-btn, .tf-btn-danger, .tf-btn-primary, .tf-btn-secondary {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: Oxygen, sans-serif;
+  font-size: 1rem;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2px;
+  padding: 0; }
+
+.tf-btn {
+  border: 1px solid #b8bbab; }
+  .tf-btn:hover {
+    border: 1px solid #959981; }
+
+.tf-btn-danger {
+  border: none;
+  color: #fff7f8;
+  background-color: #ff6b6b; }
+  .tf-btn-danger:hover {
+    background-color: #ff5252; }
+
+.tf-btn-primary {
+  border: none;
+  color: #fff7f8;
+  background-color: #4ecdc4; }
+  .tf-btn-primary:hover {
+    background: #33b5ac; }
+
+.tf-btn-secondary {
+  border: none;
+  color: #fff7f8;
+  background-color: #ffe66d; }
+  .tf-btn-secondary:hover {
+    background: #ffdd3a; }
+
+.tf-btn-text {
+  border: none;
+  background: none;
+  font-family: Oxygen, sans-serif; }
+  .tf-btn-text:hover {
+    border-bottom: 1px solid #b8bbab;
+    font-weight: 700; }
+
+.tf-btn-small {
+  width: 6rem;
+  height: 1.25rem; }
+
+.tf-btn-large {
+  width: 9.5rem;
+  height: 3.5rem; }
+
+.tf-margin {
+  margin: 1rem; }
+
+.tf-margin-small {
+  margin: 0.5rem; }
+
+.tf-margin-large {
+  margin: 2rem; }
+
+.tf-shadow-light {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+body {
+  background: #fff7f8; }
+
+/*# sourceMappingURL=style.css.map */

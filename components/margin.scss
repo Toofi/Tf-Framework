@@ -1,0 +1,20 @@
+@import "../src/variables.scss";
+@import "../src/mixins.scss";
+
+//mettre une boucle pour sélectioner des margin différents en fonction du paramètre
+
+%tf-margin {
+    margin: $marginMedium;
+}
+
+.tf-margin {
+    margin: $marginMedium;
+}
+
+.tf-margin-small {
+    margin: $marginSmall;
+}
+
+.tf-margin-large {
+    margin: $marginLarge;
+}
