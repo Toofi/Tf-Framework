@@ -85,9 +85,9 @@
 .tf-btn-secondary {
   border: none;
   color: #fff7f8;
-  background-color: #ffe66d; }
+  background-color: #eee82c; }
   .tf-btn-secondary:hover {
-    background: #ffdd3a; }
+    background: #d6d011; }
 
 .tf-btn-text {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
